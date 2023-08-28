@@ -1,0 +1,21 @@
+
+
+
+.policy-p-2 p{
+    padding: 4px 0;
+}
+
+.privacy-policy-container h2, h3{
+    font-weight: 400 !important;
+    margin: 1rem 0;
+    padding: 1rem 0;
+    font-size: 28px;
+}
+
+.privacy-policy-h-span{
+    font-size: 20px;
+}
+
+.privacy-policy-container h5{
+    padding: 1rem 0;
+}

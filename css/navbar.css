@@ -1,0 +1,70 @@
+
+/* ========== XX =========== */
+
+.navbar-nav li{
+    padding: 10px !important;
+    cursor: pointer !important;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+
+.window-scroll {
+    position: sticky;
+    width: 100%;
+    z-index: 100;
+    height: 10vh;
+
+    background-color: #fff; 
+    box-shadow: 1rem 1rem 2rem rgba(0, 0, 0, 0.7) ;
+   
+    text-align: end;
+    transition: 0.2s ease in;
+    top: 0;
+}
+
+
+
+.nav-item {
+    transition: 0.3s ease;
+}
+.nav-item a{
+    font-size: 14px!important;
+}.mobile-nav > button{
+    width: 30px!important;
+    height: 30px!important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-item:hover{
+    border-bottom: 4px solid  #fa6108 !important;
+    width: fit-content;
+}
+
+
+.nav-item .orix-btn a{
+    border: none;
+}
+
+.offcanvas{
+    width: 285px !important;
+    
+}
+
+.offcanvas-title img {
+    width: 120px;
+}
+
+
+@media screen and (min-width:1018px) {
+    .mobile-nav{
+      display: none !important;
+    }
+   
+}
+

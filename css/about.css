@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#home-bg-content-wrapper{
+    position: absolute;
+    top: 20%;
+    left: 0%;
+    transition: 0.3s ease;
+    animation: animate 5s infinite;
+}
+
+@keyframes animate {
+    0%{
+        bottom: -100px;
+        left: 40%;
+    }
+
+    50%{
+        left: 50%
+    }
+
+    70%{
+        right: 50%
+    }
+
+
+    100%{
+        right: -25px;
+        bottom: 25px;
+    }
+}
+
+
+#counter-container{
+color: #fa6108;
+font-family: 'Roboto Mono', sans-serif;
+display: flex;
+align-items: center;
+justify-content: end;
+gap: 20px;
+
+}
+
+.counter-container {
+display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+}
+.counter {
+font-size: 20px;
+margin-top: 10px;
+}
+@media (max-width: 580px) {
+body {
+flex-direction: column;
+}
+}
+
+.about-hero-socials-icons{
+    display: flex;
+    gap: 10px;
+
+}
+.about-hero-socials-icons li{
+    padding: 7px 10px;
+    transition: 0.3s ease;
+    font-size: 2.8rem;
+}
+
+.about-hero-socials-icons :nth-child(1):hover, .iconify{
+    background-color:  #fa6108;
+    border-radius: 15px 25px !important;
+    color: #362424;
+
+}
+
+.download-cv{
+    background-color: orange;
+    width: fit-content;
+    padding: 7px !important;
+}
+
+.download-cv a{
+    text-decoration: none;
+    font-size: 2.5rem;
+}
+
+.download-cv a:hover{
+    background-color: black;
+    color: #fff;
+}
+/* =========== */
+
+.cards-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.card{
+    box-shadow: inset 7px 2px 17px 12px #F7f7f7;
+    border: none !important;
+    border: inset 2px solid gray;
+    border-radius: 0px 3px 28px 0px !important;
+}
+
+
+@media screen and (max-width: 600px) {
+    .about-container{
+      border: 0!important;
+      padding-top: 5rem !important;
+    }
+    .card{
+        width: 80% !important;
+        margin-top: 1.5rem !important;
+    }
+    .about-why-choose-us{
+        margin-top: 3rem !important;
+    }
+  }
