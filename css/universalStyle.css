@@ -39,10 +39,6 @@ p{
   font-size: 18px !important;
 }
 
-/* because  we cant give space from above */
-.padding-hero-section{
-  padding: 7rem 0;
-}
 
 .padding{
     padding: 5rem 0;
@@ -142,9 +138,7 @@ form input{
   .featured-img img{
       width: 95%;
     }
-    .lottie-player{
-      width: 300px !important;
-    }
+   
 
     .form-container{
       height: fit-content;
