@@ -28,9 +28,9 @@
 
 <body>
    <nav class="navbar navbar-expand-lg position-fixed " style="width: 100%; z-index: 10;" id="nav">
-      <div class="container-fluid ">
+      <div class="container-fluid">
          <a class="navbar-brand mx-5 " href="https://www.markipie.com/"><img style="width: 100px;" height="100px"
-               class="img-fluid" src="./logo/markipie-orange-logo.png" alt="markipie digital marketing agency orange logo"></a>
+               class="img-fluid" src="./logo/markipie-orange-logo.png" alt="markipie digital marketing agency orange logo" loading="lazy"></a>
          <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto px-5 mx-2">
                <li class="nav-item">
@@ -71,7 +71,7 @@
          id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
          <div class="offcanvas-header">
             <h5 class="offcanvas-title" id="offcanvasScrollingLabel"><img class="img-fluid"
-                  src="./logo/markipie-logo.png" alt="markipie digital marketing logo"></h5>
+                  src="./logo/markipie-logo.png" loading="lazy" alt="markipie digital marketing logo"></h5>
             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
          </div>
          <div class="offcanvas-body">
@@ -190,9 +190,14 @@
          <div class="row align-items-center justify-content-center">
             <div class="col-md-6 inner-photo-content-container" data-aos="zoom-in" data-aos-duration="2000">
                <div class="col-md-6 our-service-img ">
-                  <img class="img-fluid telescope" style="height: 100%;"
-                     src="./images/homepage/goals-marketing-strategies.jpg" loading="lazy"
-                     alt="We understand our customer's vision, desired goals and pain points and make them sure to deliver best result as possible by our marketing">
+                  <picture>
+                  <source class="img-fluid" srcset="./images/homepage/goals-marketing-strategies.webp" type="image/webp" style="width: 100% height
+                  100%;" aria-label="We understand our customer's vision, desired goals and pain points and make them sure to deliver best result as possible by our marketing">
+                    <img class="img-fluid telescope" style="height: 100%;"
+                    src="./images/homepage/goals-marketing-strategies.jpg" loading="lazy"
+                    alt="We understand our customer's vision, desired goals and pain points and make them sure to deliver best result as possible by our marketing">
+                </picture>
+              
                </div>
             </div>
             <!--inner-photo-content-container-->
@@ -246,7 +251,7 @@
 
             <picture>
                <source srcset="./images/homepage/feature-your-website.webp" type="image/webp" style="width: 100% height
-               100%;" aria-label="Markpie offers websites with years of experience, our team of web developers is highly professional and experts in their fields">
+               100%;" aria-label="feature your online presence and get rank on google first page with our effective and brain storming ideas">
                  <img class="img-fluid" style="width: 100% height
             100%;" src="./images/homepage/feature-your-website.png"
                alt="feature your online presence and get rank on google first page with our effective and brain storming ideas">
