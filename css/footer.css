@@ -65,3 +65,10 @@ ul li{
 
 }
 
+.footer-social ul{
+    width: 100%;
+}
+
+.footer-social li{
+    width: 70px;
+}
