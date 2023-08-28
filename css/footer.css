@@ -70,5 +70,5 @@ ul li{
 }
 
 .footer-social li{
-    width: 70px;
+    width: max-content;
 }
