@@ -55,6 +55,10 @@ ul li{
 }
 
 
+.top-section{
+  padding-top: 7rem;
+}
+
 
 .orix-btn a, .orix-btn button {
     color: #fff;
