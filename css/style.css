@@ -142,11 +142,7 @@ text-decoration: underline;
         justify-content: center;
     }
 
-    .stats-box-orange{
-        right: 0 !important;
-        bottom: -10%;
-    }
-
+  
 
 
     .right-text-services h3{
@@ -169,6 +165,10 @@ text-decoration: underline;
     }
 
  
+    .stats-box-orange{
+        right: 0 !important;
+        bottom: -22% !important;
+    }
 
    
     .about-company{
@@ -187,7 +187,11 @@ text-decoration: underline;
         margin-top: 2.7rem !important;
     }
   
-    
+    .padding-less-mobile{
+        padding: 0 !important;
+    }
+
+  
 
 }
 
